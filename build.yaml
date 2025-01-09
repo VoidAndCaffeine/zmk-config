@@ -31,5 +31,5 @@ include:
   - board: glove80_lh
     shield: glove80_azalea_dongle
   - board: glove80_rh
-    shield: glove80_azalea_dongle
+    shield: glove80_azalea_dongl
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
