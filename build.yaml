@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840_mdk_usb_dongle
+  - board: dongle_nrf52840
     shield: glove80_az_dongle
     artifact-name: dongle_fw
   - board: glove80_lh
@@ -28,7 +28,7 @@ include:
   - board: glove80_rh
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: right_fw
-  - board: nrf52840_mdk_usb_dongle
+  - board: dongle_nrf52840
     shield: settings_reset
     artifact-name: dongle_reset
   - board: glove80_lh
