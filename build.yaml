@@ -20,13 +20,16 @@
 ---
 include:
   - board: glove80_lh
+    shield: glove80_azalea_dongle
   - board: glove80_rh
     shield: glove80_azalea_dongle
   - board: glove80_lh
+    shield: settings_reset
   - board: glove80_rh
     shield: settings_reset
   # Add these cmake-args to the peripherals you wish to use with the dongle
   - board: glove80_lh
+    shield: glove80_azalea_dongle
   - board: glove80_rh
-    shield: glove80_azalea
+    shield: glove80_azalea_dongle
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
