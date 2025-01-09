@@ -4,16 +4,10 @@ if SHIELD_GLOVE80_AZ_DONGLE
 config ZMK_KEYBOARD_NAME
     default "Glove80 Azalea"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT
-    default y
-
-config BT_CTLR
-    default BT
-
-config ZMK_USB
     default y
 
 # Set this to the number of peripherals your dongle will have.
