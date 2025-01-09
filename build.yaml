@@ -19,6 +19,6 @@
 #
 ---
 include:
-    - board: nrf52840dk_nrf52840
+    - board: nice_nano_v2
     shield: glove80_azalea_dongle
     artifact-name: dongle_fw
