@@ -17,13 +17,11 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
-    shield: settings_reset
 ---
 include:
   - board: nrf52840_mdk_usb_dongle
     shield: glove80_az_dongle
-    artifact-name: dongle_reset
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+    artifact-name: dongle_fw
   - board: glove80_lh
     artifact-name: left_fw
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
