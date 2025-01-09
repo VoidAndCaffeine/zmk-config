@@ -55,8 +55,7 @@
             label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&rgb_ug RGB_STATUS>;
+            bindings = <&rgb_ug RGB_STATUS>;
         };
     };
 };
@@ -99,33 +98,25 @@
             label = "BT_SELECT_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 0>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 0>;
         };
         bt_select_1: bt_select_1 {
             label = "BT_SELECT_1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 1>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 1>;
         };
         bt_select_2: bt_select_2 {
             label = "BT_SELECT_2";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 2>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 2>;
         };
         bt_select_3: bt_select_3 {
             label = "BT_SELECT_3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 3>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 3>;
         };
     };
 #else
@@ -134,33 +125,25 @@
             label = "BT_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 0>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 0>;
         };
         bt_1: bt_1 {
             label = "BT_1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 1>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 1>;
         };
         bt_2: bt_2 {
             label = "BT_2";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 2>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 2>;
         };
         bt_3: bt_3 {
             label = "BT_3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 3>;
+            bindings = <&out OUT_BLE>, <&bt BT_SEL 3>;
         };
     };
 #endif
@@ -275,16 +258,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <15>;
-            bindings = <&kp F>
-                , <&kp O>
-                , <&kp R>
-                , <&kp LPAR>
-                , <&kp SEMI>
-                , <&kp SEMI>
-                , <&kp RPAR>
-                , <&kp SPACE>
-                , <&kp LBRC>
-                , <&kp RET>;
+            bindings = <&kp F>, <&kp O>, <&kp R>, <&kp LPAR>, <&kp SEMI>, <&kp SEMI>, <&kp RPAR>, <&kp SPACE>, <&kp LBRC>, <&kp RET>;
         };
     
         if: if {
@@ -292,15 +266,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <15>;
-            bindings = <&kp I>
-                , <&kp F>
-                , <&kp LPAR>
-                , <&kp EQUAL>
-                , <&kp EQUAL>
-                , <&kp RPAR>
-                , <&kp SPACE>
-                , <&kp LBRC>
-                , <&kp RET>;
+            bindings = <&kp I>, <&kp F>, <&kp LPAR>, <&kp EQUAL>, <&kp EQUAL>, <&kp RPAR>, <&kp SPACE>, <&kp LBRC>, <&kp RET>;
         };
     
         while: while {
@@ -308,34 +274,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <15>;
-            bindings = <&kp W>
-                , <&kp H>
-                , <&kp I>
-                , <&kp L>
-                , <&kp E>
-                , <&kp LPAR>
-                , <&kp RPAR>
-                , <&kp SPACE>
-                , <&kp LBRC>
-                , <&kp RET>;
+            bindings = <&kp W>, <&kp H>, <&kp I>, <&kp L>, <&kp E>, <&kp LPAR>, <&kp RPAR>, <&kp SPACE>, <&kp LBRC>, <&kp RET>;
         };
     
         main: main {
             label = "&MAIN";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I>
-                , <&kp N>
-                , <&kp T>
-                , <&kp SPACE>
-                , <&kp M>
-                , <&kp A>
-                , <&kp I>
-                , <&kp N>
-                , <&kp LPAR>
-                , <&kp RPAR>
-                , <&kp SPACE>
-                , <&kp LBRC>;
+            bindings = <&kp I>, <&kp N>, <&kp T>, <&kp SPACE>, <&kp M>, <&kp A>, <&kp I>, <&kp N>, <&kp LPAR>, <&kp RPAR>, <&kp SPACE>, <&kp LBRC>;
         };
     };
 };
