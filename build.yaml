@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: nrf52840_mdk_usb_dongle
-    shield: glove80_azalea_dongle
-    artifact-name: dongle_fw
+  #  - board: nrf52840_mdk_usb_dongle
+  #  shield: glove80_azalea_dongle
+  #  artifact-name: dongle_fw
   - board: glove80_lh
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: left_fw
