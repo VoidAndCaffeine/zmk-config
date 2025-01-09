@@ -20,6 +20,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: glove80_azalea_dongle
-    artifact-name: dongle_fw
+  #shield: glove80_azalea_dongle
+    shield: settings_reset
+    artifact-name: dongle_reset
 
