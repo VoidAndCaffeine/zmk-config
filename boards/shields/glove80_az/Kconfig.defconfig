@@ -1,13 +1,19 @@
-if SHIELD_GLOVE80_AZALEA_DONGLE
+if SHIELD_GLOVE80_AZ_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "Glove80_az"
+    default "Glove80 Azalea"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT
+    default y
+
+config BT_CTLR
+    default BT
+
+config ZMK_USB
     default y
 
 # Set this to the number of peripherals your dongle will have.
