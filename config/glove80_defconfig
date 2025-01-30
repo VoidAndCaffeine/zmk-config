@@ -1,4 +1,0 @@
-# Put configuration options here
-
-CONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL=n
-CONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
