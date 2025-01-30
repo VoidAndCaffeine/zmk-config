@@ -10,7 +10,7 @@
 #include <dt-bindings/led/led.h>
 
 / {
-    model = "glove80_lh";
+    model = "glove80_az_lh";
     compatible = "glove80_lh";
 
     chosen {

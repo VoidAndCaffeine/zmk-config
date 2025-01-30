@@ -23,11 +23,11 @@ include:
     shield: glove80_az_dongle
     artifact-name: dongle_fw
 
-  - board: glove80_lh
+  - board: glove80_az_lh
     artifact-name: left_fw
     #    cmake-args: -DZMK_SPLIT_ROLE_CENTRAL=n
 
-  - board: glove80_rh
+  - board: glove80_az_rh
     artifact-name: right_fw
     #    cmake-args: -DZMK_SPLIT_ROLE_CENTRAL=n
 
@@ -35,10 +35,10 @@ include:
     shield: settings_reset
     artifact-name: dongle_reset
 
-  - board: glove80_lh
+  - board: glove80_az_lh
     shield: settings_reset
     artifact-name: left_reset
 
-  - board: glove80_rh
+  - board: glove80_az_rh
     shield: settings_reset
     artifact-name: right_reset
