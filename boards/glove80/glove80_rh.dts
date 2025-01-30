@@ -12,7 +12,7 @@
 
 / {
     model = "glove80_az_rh";
-    compatible = "glove80_rh";
+    compatible = "glove80_az_rh";
 
     chosen {
         zmk,underglow = &led_strip;
